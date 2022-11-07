@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=New+Rocker&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
+    <title>Basketball Scorecard</title>
+</head>
+<body>
+     <div class="container">
+        <div class="column">
+            <h3>HOME</h3>
+            <h2 id="home-score" class="score">0</h2>
+            <div>
+                <button id="home-pt" onclick="homeAddScore()">+1</button>
+                <button id="home-pt-2" onclick="homeAddTwoScore()">+2</button>
+                <button id="home-pt-3" onclick="homeAddThreeScore()">+3</button>
+                <button class="reset" id="reset-home">Reset</button>
+            </div>
+        </div>
+        <div class="column">
+            <h1>Deathball Scoreboard</h1>
+        </div>
+        <div class="column">
+            <h3>GUEST</h3>
+            <h2 id="guest-score" class="score">0</h2>
+            <div>
+                <button id="guest-pt" onclick="guestAddScore()">+1</button>
+                <button id="guest-pt-2" onclick="guestAddTwoScore()">+2</button>
+                <button id="guest-pt-3" onclick="guestAddThreeScore()">+3</button>
+                <button class="reset" id="reset-home">Reset</button>
+            </div> 
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

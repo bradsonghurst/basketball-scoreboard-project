@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'Digital Display';
+    src: url('Assets/Digital-Display.woff2') format('woff2'),
+        url('Assets/Digital-Display.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    background-color: #1B244A;
+    background-image: url(pexels-fireberrytech-2848647\ \(1\).jpg);
+    background-size: cover;
+    
+   }
+
+.score {
+    background: #EEEEEE;
+    font-size: 90px;
+    color: #F94F6D;
+    width: 120px;
+    margin: 20px;
+    font-family:'Creepster', cursive;;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+button {
+    background: none;
+    color: #9AABD8;
+    border-color: #9AABD8;
+}
+h3{
+    color: #EEEEEE;
+    font-family:'New Rocker';
+    font-size: 25px;
+}
+h1{
+    color: #EEEEEE;
+    font-family: 'New Rocker', cursive;
+    font-size: 100px;
+   
+}
